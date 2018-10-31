@@ -10,7 +10,7 @@ class Node {
 
 public void search(Node node, int key) {
 	if (node.value == key || n == null) {
-		System.out.println("Value is found");
+		System.out.println("Value is  notfound");
 	} else if (key < node.value) {
 		search(n.left, key);
 	} else {
